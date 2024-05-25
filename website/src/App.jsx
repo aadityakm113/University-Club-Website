@@ -1,13 +1,23 @@
 import './App.css'
-import Body from './components/body/Body'
+import Clubs from './components/clubs/Clubs'
+import Events from './components/events/Events'
+import Home from './components/home/Home'
 import Navbar from './components/navbar/Navbar'
+import {BrowserRouter as Router ,Route,Routes} from 'react-router-dom'
 
 function App() {
   return (
-    <div className='page'>
-      <Navbar />
-      <Body />
-    </div>
+    <Router>
+      <div className='page'>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/clubs' element={<Clubs />} />
+          <Route path='/events' element={<Events />} />
+          <Route path='/log-in' element={<Clubs />} />
+        </Routes>
+      </div>
+    </Router>
   )
 }
 
