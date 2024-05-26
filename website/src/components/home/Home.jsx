@@ -44,7 +44,7 @@ const Home = () => {
   id: 6,
   title: 'Korean culture club',
   description: "The club's mission to promote a profound understanding and awareness of Korean culture and language through various activities and events is a commendable endeavor that can have a significant impact on the campus community.",
-  image: 'kcc.png',
+  image: 'kccteam.jpg',
   logo: 'kcc.png',
 },
 {
