@@ -23,21 +23,21 @@ const Home = () => {
   id: 3,
   title: 'Innovation Center',
   description: 'GITAM’s Innovation Center is a space for enthusiastic students to imagine, collaborate, create and bring their innovative ideas to life. It is a platform to give their creative minds a little more spark.',
-  image: 'card2.jpg',
+  image: 'inno.jpg',
   logo: 'iclogo.jpg'
 },
 {
   id: 4,
   title: 'GITAM Quiz club',
   description: 'The main objective of GQC (presumably standing for " Gitam Quiz Club") is to create an engaging platform for conducting quizzes and fostering collaboration with other clubs.',
-  image: '',
+  image: 'quizclub.jpeg',
   logo: 'quiz.png',
 },
 {
   id: 5,
   title: 'GITAM Cooking Club',
   description: 'Bringing all cooking enthusiasts together on an exciting journey into the world of cooking involves creating a vibrant and inclusive community where people can share their passion for food, learn new culinary skills, and explore diverse cuisines.',
-  image: 'card3.jpg',
+  image: 'cookingclub.jpeg',
   logo: 'cooking.png',
 },
 {
@@ -51,21 +51,21 @@ const Home = () => {
   id: 7,
   title: 'Engineers Without Borders (EWB)',
   description: "Engineers Without Borders (EWB) is a non-profit organization that works for the development of society. The organization works in collaboration with other institutions to fund and develop ideas that benefit people in low income and rural areas, and offers students real-world experience.",
-  image: 'card3.jpg',
+  image: 'ewbteam.jpg',
   logo: 'ewb.jpg'
 },
 {
   id: 8,
   title: 'Entrepreneurs club',
   description: "To facilitate an active and thriving entrepreneurial ecosystem on the campus.",
-  image: 'card3.jpg',
+  image: 'eclub.png',
   logo: 'eclub.png'
 },
 {
   id: 9,
   title: 'Disha',
   description: "Disha was started by the student body, under the guidance of Dr. Joseph RatnaJaykar, Associate Professor in the Department of English and inaugurated in December 2017.",
-  image: 'card3.jpg',
+  image: 'disha.jpg',
   logo: 'disha.jpg'
 },
 
