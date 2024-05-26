@@ -3,9 +3,11 @@ import "./navbar.css"
 const Navbar = () => {
   return (
     <div className='navbar_container'>
-      <h1>Clubs of Gitam</h1>
-      <h1>Upcoming Events</h1>
-      <h1>Sign in</h1>
+      <a href="/">Clubs</a>
+      <a href="/events">Events</a>
+      <a href="/guidelines">Guidelines</a>
+      <a href='/log-in'>Sign in </a>
+
     </div>
   )
 }
