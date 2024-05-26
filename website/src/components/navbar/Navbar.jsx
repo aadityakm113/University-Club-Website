@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div className='navbar_container'>
       <div className='newlogo'>
-      <img src='./assets/cats-logo.png'/> 
+      <a href='/'><img src='./assets/cats-logo.png'/> </a>
       </div>
       <div className='nav'>
       <a href="/" >Clubs</a>

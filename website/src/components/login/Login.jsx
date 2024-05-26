@@ -1,6 +1,17 @@
 import React from 'react'
 import './login.css'
+import { useNavigate } from 'react-router-dom'
+
 const Login = () => {
+  const navigate = useNavigate()
+
+  const handleSignIn = () => {
+    // Add your sign-in logic here
+
+    // Navigate to the AddEvent page after successful sign-in
+    navigate('/add')
+  }
+
   return (
     <div className='container'>
         <div className='left' >
@@ -23,7 +34,7 @@ const Login = () => {
         <input type="text" id="username" className='textbox' placeholder="Email"/>
         <input type="password" id="password" className='textbox' placeholder="Password"/>
         <div className='Sign-in'>
-        <button id="Sign in" className='button'>Sign in</button>
+        <button id="Sign in" className='button' onClick={handleSignIn}>Sign in</button>
         
         </div>
 
