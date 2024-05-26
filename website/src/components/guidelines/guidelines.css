@@ -1,0 +1,12 @@
+.guidelines{
+    font-family: 'Roboto';
+    color: #ffffff;
+}
+.contact{
+    font-family: 'Roboto';
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+   word-spacing: 0.5em;
+}

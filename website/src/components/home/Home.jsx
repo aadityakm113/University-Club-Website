@@ -12,12 +12,12 @@ const Home = () => {
   image: 'kalakrithihyd.jpeg',
   logo: 'Kalakrithi.jpg'
 },
-{
+{ 
   id: 2,
   title: 'GitHub Community at Gitam',
   description: "GitHub Community GITAM (GCG) was founded in September 2021 unofficially by a group of six like-minded individuals in GITAM Bangalore to promote technology and its importance in the university. In January 2022, GitHub Community GITAM was named an official SIG (Special Interest Group) under the Directorate of Student Life. From a group of six people, GitHub Community GITAM grew to be a community of over 350 people. It is known by students on all three campuses at Visakhapatnam, Hyderabad, and Bangalore. Our Mission is to facilitate an active and striving technical community on campus. We have a team of 25 working every day towards our mission.",
   image: 'epoch.JPG',
-  logo: 'github.svg'
+  logo: 'github.png'
 },
 {
   id: 3,

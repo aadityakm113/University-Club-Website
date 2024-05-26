@@ -4,6 +4,7 @@ import Events from './components/events/Events'
 import Home from './components/home/Home'
 import Navbar from './components/navbar/Navbar'
 import Login from './components/login/Login'
+import Guidelines from './components/guidelines/Guidelines'
 import {BrowserRouter as Router ,Route,Routes} from 'react-router-dom'
 import AddEvents from './components/events/AddEvents'
 
@@ -17,7 +18,11 @@ function App() {
           <Route path='/clubs' element={<Clubs />} />
           <Route path='/events' element={<Events />} />
           <Route path='/log-in' element={<Login />} />
+<<<<<<< HEAD
+          <Route path='/guidelines' element={<Guidelines />}/>
+=======
           <Route path='/add' element={<AddEvents />} />
+>>>>>>> ea3fbd64ec24691cf66e5a153d134e2d5ef0f79b
         </Routes>
       </div>
     </Router>
