@@ -8,8 +8,8 @@ const Login = () => {
                 <img src='./assets/cats-logo.png'/> 
             </div>
             <div className='welcome'>
-                <h4>Welcome to the official events</h4>
-                <h4>page of GITAM UNIVERSITY</h4>
+                <p>Welcome to the official events</p>
+                <p>page of GITAM UNIVERSITY</p>
             </div>
         </div>
         <form className='Sign-in'>
@@ -19,6 +19,7 @@ const Login = () => {
         <input type="password" id="password" className='textbox' placeholder="Password"/>
         <div className='Sign-in'>
         <button id="Sign in" className='button'>Sign in</button>
+        
         </div>
 
         </div>
