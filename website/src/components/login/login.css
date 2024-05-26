@@ -1,0 +1,40 @@
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.logo{
+    align-items: flex-start;
+    width: 300px;
+}
+.logo img{
+    width: 100%;
+}
+.welcome{
+    margin-top: 170px;
+    margin-left: 60px;
+    align-items: flex-start;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.textbox {
+    display: flex;
+    width: 25%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 13px; 
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px; 
+    cursor: pointer;
+}
