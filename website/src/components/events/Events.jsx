@@ -1,6 +1,6 @@
 import React from 'react';
 import './events.css';
-import Popup from '../popup/Popup';
+import EventPopup from '../popup/EventPopup';
 
 const Events = () => {
   const data = [
@@ -49,7 +49,7 @@ const Events = () => {
         </div>
       ))}
       {showModal && (
-        <Popup
+        <EventPopup
           onClose={() => setShowModal(false)}
           event={selectedEvent}
         />
