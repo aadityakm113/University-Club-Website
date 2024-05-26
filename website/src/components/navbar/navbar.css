@@ -1,6 +1,28 @@
 .navbar_container{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    background-color:#589EC6;
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px;
+}
+.newlogo{
+    width: 100px;
+    margin-left: -100px;
+    margin-top: -10px;
+    flex-shrink: 0;
+}
+.newlogo img{
+    width: 100%;
+}
+.nav a{
+    font-family: 'Roboto';
+    font: bolder;
+    font-size: 35px;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    margin: 30px;
+    margin-top: 8px;
+    margin-left: 170px;
+}
+.nav :hover{
+    color: #F7E6B3;
 }
