@@ -20,14 +20,16 @@ const Events = () => {
       image: 'Kalakrithi.jpg',
       date: 'January 2, 2023',
       time: '11:00 AM - 6:00 PM',
+      venue:'Kinnera Hall'
     },
     {
       id: 3,
       title: 'Tech Trivia',
       description: "Are you a tech enthusiast who loves to keep up with the latest in technology? Do you have a knack for solving puzzles and answering trivia questions? If so, then the 'Tech Trivia Challenge 2024' is the perfect event for you! Join us for an exciting and intellectually stimulating trivia competition that tests your knowledge of all things tech. Compete with fellow students, showcase your expertise, and win amazing prizes!",
-      image: 'github.svg',
+      image: 'github.png',
       date: 'January 3, 2023',
       time: '12:00 PM - 7:00 PM',
+      venue:'Manjeera Hall'
     },
   ];
 
