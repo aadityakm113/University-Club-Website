@@ -26,6 +26,10 @@
   border-radius: 10px 10px 0 0;
 }
 
+.popup-box img.ev {
+  object-fit: contain;
+}
+
 .popup-box h2 {
   margin-top: 0;
 }

@@ -1,11 +1,4 @@
-// Events.js
-import React from "react";
-import "./events.css";
-import Popup from "../popup/Popup";
-
-const Events = () => {
-  const data = [
-    {
+{
       id: 1,
       title: "Ideathon",
       description:
@@ -35,41 +28,3 @@ const Events = () => {
       time: "12:00 PM - 7:00 PM",
       venue: "Manjeera Hall",
     },
-  ];
-
-  const [showModal, setShowModal] = React.useState(false);
-  const [selectedEvent, setSelectedEvent] = React.useState(null);
-
-  const handleEventClick = (event) => {
-    setSelectedEvent(event);
-    setShowModal(true);
-  };
-
-  return (
-    <div className="events-container">
-      {data.map((event, idx) => (
-        <div
-          key={idx}
-          className="event"
-          onClick={() => handleEventClick(event)}
-        >
-          <img src={`/assets/${event.logo}`} alt={event.title} />
-          <h2>{event.title}</h2>
-          <p>
-            {event.date} | {event.time}
-          </p>
-          <p>{event.venue}</p>
-        </div>
-      ))}
-      {showModal && (
-        <Popup
-          onClose={() => setShowModal(false)}
-          data={selectedEvent}
-          type="event"
-        />
-      )}
-    </div>
-  );
-};
-
-export default Events;
