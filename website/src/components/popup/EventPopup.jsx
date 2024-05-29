@@ -5,7 +5,7 @@ const EventPopup = ({ onClose, event }) => {
   return (
     <div className="event-popup-container">
       <div className="event-popup-box">
-        <img src={`/assets/${event.image}`} alt={event.title} />
+        <img src={`/assets/${event.logo}`} alt={event.title} />
         <h2>{event.title}</h2>
         <p>{event.description}</p>
         <p>{event.date} | {event.time}</p>
