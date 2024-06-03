@@ -1,5 +1,5 @@
 // Events.js
-import React from "react";
+import React, { useState } from "react";
 import "./events.css";
 import Popup from "../popup/Popup";
 
@@ -37,8 +37,8 @@ const Events = () => {
     },
   ];
 
-  const [showModal, setShowModal] = React.useState(false);
-  const [selectedEvent, setSelectedEvent] = React.useState(null);
+  const [showModal, setShowModal] = useState(false);
+  const [selectedEvent, setSelectedEvent] = useState(null);
 
   const handleEventClick = (event) => {
     setSelectedEvent(event);
