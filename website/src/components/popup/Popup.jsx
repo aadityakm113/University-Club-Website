@@ -8,7 +8,6 @@ const Popup = ({ onClose, data, type }) => {
         {type === "home" ? (
           <div>
             <img src={`/assets/${data.image}`} alt={data.title} />
-            <h2>{data.title}</h2>
             <p>{data.description}</p>
           </div>
         ) : (
@@ -19,6 +18,7 @@ const Popup = ({ onClose, data, type }) => {
             <p>
               {data.date} | {data.time}
             </p>
+            <p>{data.venue}</p>
           </div>
         )}
         <button onClick={onClose}>Close</button>

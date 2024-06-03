@@ -6,9 +6,6 @@ const Login = () => {
   const navigate = useNavigate()
 
   const handleSignIn = () => {
-    // Add your sign-in logic here
-
-    // Navigate to the AddEvent page after successful sign-in
     navigate('/add')
   }
 
