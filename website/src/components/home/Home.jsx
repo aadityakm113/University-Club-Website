@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import Popup from "../popup/Popup";
-import Navbar from "../navbar/Navbar";
 import axios from "axios";
 import "./home.css";
 
