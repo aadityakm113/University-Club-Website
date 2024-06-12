@@ -12,7 +12,7 @@ const Popup = ({ onClose, data, type }) => {
           </div>
         ) : (
           <div>
-            <img className="ev" src={`/assets/${data.logo}`} alt={data.title} />
+            <img className="ev" src={`/assets/${data.image}`} alt={data.title} />
             <h2>{data.title}</h2>
             <p>{data.description}</p>
             <p>
